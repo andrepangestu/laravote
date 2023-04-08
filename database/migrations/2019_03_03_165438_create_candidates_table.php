@@ -22,6 +22,7 @@ class CreateCandidatesTable extends Migration
             $table->text('program_kerja');
             $table->string('photo_paslon');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

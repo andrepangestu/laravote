@@ -56,12 +56,6 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
-
-                                OR
-
-                                <a class="btn btn-success" href="{{ route('otp.login') }}">
-                                    Login with OTP
-                                </a>
                             </div>
                         </div>
                     </form>
